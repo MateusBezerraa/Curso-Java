@@ -34,7 +34,7 @@ STATIC:   - vira uma atributo da classe e não mais das instancias. Pode-se aces
     esse mesmo valor imutável, sem precisar ser criado toda vez (é criado uma vez na memoria e todos os objetos
     pegam esse valor da mesma região da memória -- poupa dor de cabeça com alocação e os krl a 4).
 
-    Para acessar esse valor/metodo sem nenhuma instancia, basta chamar o nome da classe . atributo/metodo 
+    - Para acessar esse valor/metodo sem nenhuma instancia, basta chamar o nome da classe . atributo/metodo 
     (ex: Math.pi ao invés de Math obj1 = new Math; obj1.pi)
 
 FINAL: modificador para definir constantes
@@ -45,6 +45,7 @@ Palavra chave reservada para acessar o valor/método da instancia.
 
 A outra funcionalidade do this é para chamar um construtor dentro de outro, utilizando o método this()
 ex: 
+
     Construtor(){
         this(1, 2, 3)
     }
