@@ -1,4 +1,4 @@
-### REVISÃO
+# REVISÃO
 
 -- classes definem tipos de dados e seus comportamentos (estrutura dos dados e métodos a serem aplicados no mesmo)
 -- a partir das classes podemos instanciar objetos
@@ -9,13 +9,9 @@ void metodo1(int a, int b)
      ---------------------
      --- assinatura ------  
 
+- para uma classe publica, o nome do arquivo java tem que ser o mesmo na definição da classe.
 
-
-# NOMES
-
-para uma classe publica, o nome do arquivo java tem que ser o mesmo na definição da classe.
-
-# CONSTRUTOR
+### CONSTRUTOR
 
 - Obrigatoriamente tem que ter o mesmo nome da classe
 - Não tem retorno (caso tenha retorno passa a ser só mais um método, independente de ter o nome da classe)
@@ -23,7 +19,7 @@ para uma classe publica, o nome do arquivo java tem que ser o mesmo na definiç�
 
 ===============================================================================================================================================
 
-# ACESSOS
+### ACESSOS
 
 - public
 
@@ -31,7 +27,7 @@ para uma classe publica, o nome do arquivo java tem que ser o mesmo na definiç�
 
 - protected
 
-# MODIFICADORES DE ACESSO
+### MODIFICADORES DE ACESSO
 
 STATIC:   - vira uma atributo da classe e não mais das instancias. Pode-se acessar o valor/metodo direto da classe, sem instanciar nada
     a palavra static significa que aquele atributo/método/etc é inerente a classe e todos os objetos terão 
@@ -43,7 +39,7 @@ STATIC:   - vira uma atributo da classe e não mais das instancias. Pode-se aces
 
 FINAL: modificador para definir constantes
 
-# THIS
+### THIS
 
 Palavra chave reservada para acessar o valor/método da instancia.
 
