@@ -6,8 +6,7 @@
 
 ex:
 void metodo1(int a, int b)<br/>
->>     ---------------------<br/>
->>     --- assinatura ------<br/>
+---------<-----assinatura-----><br/>
 
 - para uma classe publica, o nome do arquivo java tem que ser o mesmo na definição da classe.
 
@@ -16,8 +15,6 @@ void metodo1(int a, int b)<br/>
 - Obrigatoriamente tem que ter o mesmo nome da classe
 - Não tem retorno (caso tenha retorno passa a ser só mais um método, independente de ter o nome da classe)
 - pode-se ter mais de um construtor, desde que as assinatiras sejam diferentes
-
-===============================================================================================================================================
 
 ### ACESSOS
 
@@ -29,15 +26,17 @@ void metodo1(int a, int b)<br/>
 
 ### MODIFICADORES DE ACESSO
 
-STATIC:   - vira uma atributo da classe e não mais das instancias. Pode-se acessar o valor/metodo direto da classe, sem instanciar nada
+STATIC:  
+- vira uma atributo da classe e não mais das instancias. Pode-se acessar o valor/metodo direto da classe, sem instanciar nada
     a palavra static significa que aquele atributo/método/etc é inerente a classe e todos os objetos terão 
     esse mesmo valor imutável, sem precisar ser criado toda vez (é criado uma vez na memoria e todos os objetos
     pegam esse valor da mesma região da memória -- poupa dor de cabeça com alocação e os krl a 4).
 
-    - Para acessar esse valor/metodo sem nenhuma instancia, basta chamar o nome da classe . atributo/metodo 
+- Para acessar esse valor/metodo sem nenhuma instancia, basta chamar o nome da classe . atributo/metodo 
     (ex: Math.pi ao invés de Math obj1 = new Math; obj1.pi)
 
-FINAL: modificador para definir constantes
+FINAL:
+- modificador para definir constantes
 
 ### THIS
 
