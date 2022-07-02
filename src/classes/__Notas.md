@@ -6,8 +6,8 @@
 
 ex:
 void metodo1(int a, int b)<br/>
-     ---------------------<br/>
-     --- assinatura ------<br/>
+>>     ---------------------<br/>
+>>     --- assinatura ------<br/>
 
 - para uma classe publica, o nome do arquivo java tem que ser o mesmo na definição da classe.
 
