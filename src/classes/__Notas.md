@@ -5,9 +5,9 @@
 - em uma mesma classe podemos ter 2 ou + métodos com o mesmo nome, o que precisa mudar é o tipo de arg ou a qtd (a assinatura)
 
 ex:
-void metodo1(int a, int b)
-     ---------------------
-     --- assinatura ------  
+void metodo1(int a, int b)<br/>
+     ---------------------<br/>
+     --- assinatura ------<br/>
 
 - para uma classe publica, o nome do arquivo java tem que ser o mesmo na definição da classe.
 
